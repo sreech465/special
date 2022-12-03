@@ -1,0 +1,10 @@
+.header1{
+    display:grid;
+    grid-template-areas: "section1 nav nav" ;
+}
+.section1{
+    font-size:20px;
+}
+.ul{
+    display: grid;
+}

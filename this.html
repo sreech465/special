@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oops this</title>
+</head>
+<body>
+    <script>
+ 
+    // JavaScript Program to implement
+    // the above approach
+function permute(s , answer)
+{  
+    if (s.length == 0)
+    {
+        document.write(answer + "  ");
+    }
+       
+    for(let i = 0 ;i < s.length; i++)
+    {
+        let ch = s[i];
+        let left_substr = s.slice(0, i);
+        let right_substr = s.slice(i + 1);
+        let rest = left_substr + right_substr;
+        permute(rest, answer + ch);
+    }
+}
+  
+    // Driver Cod"e
+    let s= "abc";
+    let answer="";
+       
+    document.write("Enter the string  : ");
+       
+    document.write("\nAll possible string are : ");
+    permute(s, answer);
+    </script>
+</body>
+</html>

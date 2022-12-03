@@ -1,0 +1,14 @@
+.kumar {
+    z-index: 997;
+    transition: all 0.5s;
+    padding: 22px 0;
+    background: #fff;
+  }
+  .raj{
+    
+     display:flex ;
+    align-items:center;
+  }
+  .navbar{
+      display:flex;
+  }

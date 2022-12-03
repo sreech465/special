@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+    <p id="ranuhya"></p>
+    <script>
+        // function is a code which performs specifictask
+        //pre definedfunctions are push pop shift unshift
+//custom functions are register sign in and login
+
+// function greetTheUser(name){
+
+// //     console.log(name);
+// // }
+// // greetTheUser('anuhya');
+
+// function anuHya(id , age) {
+// console.log('name:'  + id+ '' +age);
+// }
+
+// anuHya('anuhya321' , 25);
+// anuHya('ranjith876' , 42);
+
+// //function with default parameters
+// function greetTheUser(name,age=25){
+//     console.log(name,age);
+// }
+// greetTheUser('raj');
+
+//function expression or variable function
+
+// var myFunc = function(){
+//     alert('i am a function expression');
+
+// }
+//           myFunc();
+// console.log(myFunc);
+
+//self-execution function
+
+        //   (function(){
+        //       alert('i am self-execution function');
+        //   })()
+
+        // var gstCalculation = function(amount,gst){
+        //     var total = amount + ((amount/100)*gst);
+        //     console.log(total);
+
+        // }
+        // gstCalculation(5000,20);
+
+        //function with return statement
+
+        // var cal = document.getElementById('ranuhya');
+        // function gstCalculation(amount,gst){
+        //     return amount + ((amount/100)*gst);
+
+        // }
+        // cal.innerText=gstCalculation(4000,18);
+
+        //recursive function
+        // a function that calls itself untill it is terminated
+
+        //callback function
+         //it is a function that is passed as an argument to another function
+
+        //  function x(callback){
+        //      console.log(callback);
+        //      callback();
+
+
+        //  }
+        //  function y(){
+
+        //     console.log('i am a callback function');
+
+        //  }
+
+        //  x(y);
+
+        // function greetTheUser(name){
+        //     alert('hello  '+ name);
+        // }
+        // function promptUser(callback){
+        //     var user = prompt('enter your name');
+        //     callback(user);
+
+        // }
+
+        // promptUser(greetTheUser);
+
+        //nested function
+        //function inside the other function
+
+        function outer(){
+            function inner(){
+                console.log('inner function');
+            }
+            inner();
+        }
+        outer();
+
+
+
+
+
+
+ </script>
+
+
+    
+</body>
+</html>

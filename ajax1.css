@@ -1,0 +1,15 @@
+.nav-items{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+    cursor:pointer;
+}
+
+
+.main-head{
+
+    background-color: rgb(13, 143, 236);
+    color:white;
+    padding:30px;
+
+}

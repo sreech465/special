@@ -1,0 +1,354 @@
+ *{
+
+    background-color:yellowgreen;
+ }
+
+
+#footer #foot{
+    background-color:darkcyan;
+    color: springgreen;
+    font-style: italic;
+}
+#footer > #foot1{
+    background-color:hotpink;
+    font-style: italic;
+}
+
+
+
+.main1{
+    display:flex;
+}
+.main1 > .divider1{
+    width:33%;
+    height:500px;
+    background-color:
+    fuchsia;
+}
+.main1 >.divider2{
+    width:33%;
+    height:500px;
+    background-color:lime;
+}
+.main1 > .divider3{
+    width:33%;
+    height:500px;
+    background-color: gold;
+}   
+.header1{
+    display:flex;
+    background-color: darkmagenta;
+}
+.header1 .section1{
+    flex:1;
+    
+}
+.header1 .nav{
+    flex:9;
+}
+.nav .ul{
+    display:flex;
+    list-style-type: none;
+   
+}
+.li1 a{
+     text-decoration: none;
+     
+}
+.li2 a{
+    text-decoration: none;
+    
+}
+.li3 a{
+    text-decoration: none;
+    
+}
+.li4 a{
+    text-decoration: none;
+    
+}
+
+
+.ul .li1 {
+    
+    flex:1;
+    background-color: aqua;
+}
+.a1{
+    background-color: aqua;  
+}
+.ul .li2 {
+    
+    flex:1;
+    background-color: khaki;
+}
+.a2{
+    background-color: khaki;  
+}
+.ul .li3 {
+    
+    flex:1;
+    background-color: green;
+}
+.a3{
+    background-color: green;  
+}
+.ul .li4 {
+    
+    flex:1;
+    background-color:steelblue;
+}
+.a4{
+    background-color:steelblue;  
+}
+h1{
+    color:yellow;
+    background-color: darkorange;
+}
+#foot + #foot1{
+    color: blue;
+}
+#foot1 ~ #foot2{
+    color: gold;
+}
+p ~ span{
+    color: lawngreen;
+}
+ 
+
+.nav .ul .li1:hover{
+
+    background-color: forestgreen;
+   
+}
+.a1:hover{
+    background-color: forestgreen;  
+}
+.nav .ul .li2:hover{
+
+    background-color:slateblue;
+   
+}
+.a2:hover{
+    background-color:slateblue ;
+}
+.nav .ul .li3:hover{
+
+    background-color:darkred;
+   
+}
+.a3:hover{
+    background-color: darkred;
+}
+.nav .ul .li4:hover{
+
+    background-color: navy;
+   
+}
+.a4:hover{
+    background-color: navy;
+}
+div span:last-child{
+    background-color:orchid;
+}
+.mahi :nth-child(2){
+
+    background-color: lime;
+}
+.mahi :first-child{
+
+    background-color: teal;
+}
+
+
+.mahi :last-child{
+
+    color:chartreuse;
+    font-style: italic;
+}
+.nahi :nth-child(2n){
+    color: darkseagreen;
+}
+.nahi :nth-child(2n+1){
+    color: royalblue;
+}
+
+
+.article1, .article2 , .article3{
+
+    color:aqua;
+}
+
+.h6::first-line{
+
+    color:red;
+}
+.h5::first-letter{
+
+    color:red;
+}
+.ribbon::before {
+
+    content:"pawan" ;
+    background-color: blue;
+}
+.ribon::after {
+
+    content:"pawan" ;
+    background-color: blue;
+}
+.rion::selection{
+    background-color: aquamarine;
+       color: indianred;
+}
+input::placeholder{
+
+    color:fuchsia;
+
+
+}
+[type]{
+
+    width:400px;
+}
+a[target="_blank"]{
+
+    color: darkgreen;
+}
+a[href^="https"] {
+    font-size:  150%; ;
+  }
+  a[href$="org"]{
+      text-transform: uppercase;
+  }
+  a[href*="oo"]{
+      float:right;
+  }
+  .prab{
+
+    color: blue !important;
+
+  }
+  #has{
+      color:aqua
+  }
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

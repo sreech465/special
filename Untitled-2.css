@@ -1,0 +1,78 @@
+.header1{
+    display:flex
+}
+.logo{
+    flex:1;
+    color:black;
+}
+.navbar{
+    flex:5;
+}
+.container{
+    display:flex;
+}
+.cont{
+    flex:1;
+}
+.ainer{
+    flex:1;
+}
+.naresh{
+    display:flex;
+    background-color: darkgrey;
+}
+.mani{
+    display: flex;
+}
+.ratnam{
+    border:2px solid green;
+    padding: 20px;
+    
+}
+.shankar{
+    min-height: 30px;
+
+}
+.rajamouli{
+    min-height: 30px;
+}
+.prashanth{
+    min-height: 30px;
+}
+.neel{
+    min-height: 30px;
+}
+.features .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #f6f6f6;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .features .icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+  .features .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+  }
+  
+  .features .icon-box h3 a {
+    color: #222222;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .features .icon-box h3 a:hover {
+    color: #3498db;
+  }
+  
+  .features .icon-box:hover {
+    background: #eef7fc;
+  }
+  

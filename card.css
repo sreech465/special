@@ -1,0 +1,93 @@
+
+.fgh{
+    color: green;
+}
+
+.dog{
+
+    font-weight: bold;
+}
+.cat{
+    color:crimson;
+}
+
+.fox{
+    font-style: italic;
+    overflow-y: scroll;
+    height: 100px;
+}
+.buttonon{
+    text-align: center;
+    background-color: aqua;
+    border-color: aqua;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.modal-content {
+
+    display: flex;
+    background-color: black;
+    color:white;
+    position: absolute;
+    top:0;
+    width:70%;
+}
+
+.modal-body{
+    background-color: #f4f4f4;
+    margin:5% auto;
+    padding:5px;
+    width:70%;
+    box-shadow:0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+    animation-name: modalopen;
+    animation-duration: 1s;
+
+}
+.modal{
+
+    display:none;
+   
+}
+.closeBtn{
+
+    cursor:pointer;
+
+}
+
+
+
+.anuhya{
+    width:800px;
+    position:fixed;
+    bottom:0;
+    text-align: center;
+
+    justify-content: space-around;
+    background-color: white;
+    border-top: b;
+    
+}
+#hema{
+    background-color: rgb(35, 55, 143);
+    width:140px;
+    border:none;
+    color:white;
+
+
+
+}
+
+.button1{
+    background-color: rgb(255, 0, 85);
+    border-color: rgb(255, 0, 140);
+    border-radius: 10px;
+    border:none;
+    height:30px;
+}
+
+
+@keyframes modalopen{
+    from{opacity:0}
+    to {opacity:1}
+}
+
